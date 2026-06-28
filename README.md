@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-Shop by Christina
 
-## Getting Started
+## 🛒 E-Commerce Storefront with Admin Panel
 
-First, run the development server:
+A full-stack e-commerce web application built using **Next.js, MongoDB, and Tailwind CSS**.
+It includes product browsing, cart system, checkout flow, and admin features.
+
+---
+
+## 🚀 Features
+
+* Product catalog with listing
+* Shopping cart with quantity management
+* Checkout page with total calculation
+* Admin login system (role-based access)
+* Product management system (Admin)
+* MongoDB database integration
+* Responsive UI design
+
+---
+
+## 🛠️ Tech Stack
+
+* Next.js (App Router)
+* React
+* MongoDB
+* JWT Authentication
+* bcrypt.js
+* Tailwind CSS (partially integrated)
+
+---
+
+## 📦 Pages
+
+* Home Page
+* Products Page
+* Cart Page
+* Checkout Page
+* Admin Login Page
+* Admin Dashboard (in progress)
+
+---
+
+## 🔐 Authentication
+
+* Admin login using email & password
+* Password encrypted using bcrypt
+* JWT-based authentication system
+* Role-based access (admin/user)
+
+---
+
+## 💳 Payment
+
+* Stripe integration (Test Mode) *(to be completed if not fully added)*
+
+---
+
+## 📁 Project Structure
+
+* `/app` → Pages and routes
+* `/components` → UI components
+* `/context` → Cart management
+* `/models` → MongoDB schemas
+* `/lib` → Database connection
+
+---
+
+## 📌 Current Status
+
+* Frontend UI: ✔ Done
+* Cart System: ✔ Done
+* Backend APIs: ⚠ Partial
+* Admin Panel: ⚠ In progress
+* Stripe Payment: ❌ Not completed
+* Full Order System: ❌ Not completed
+
+---
+
+## ▶️ How to Run
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Goal
 
-To learn more about Next.js, take a look at the following resources:
+To build a complete full-stack e-commerce platform with admin control, payment system, and inventory management.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👩‍💻 Developer
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Christina – Computer Science Engineering Student
