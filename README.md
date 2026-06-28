@@ -1,21 +1,21 @@
 # E-Shop by Christina
 
-## 🛒 E-Commerce Storefront with Admin Panel
+## 🛒 Full-Stack E-Commerce Web Application
 
-A full-stack e-commerce web application built using **Next.js, MongoDB, and Tailwind CSS**.
-It includes product browsing, cart system, checkout flow, and admin features.
+E-Shop is a modern full-stack e-commerce platform built using **Next.js, MongoDB, and Tailwind CSS**, designed to provide a smooth online shopping experience with admin management features.
 
 ---
 
 ## 🚀 Features
 
-* Product catalog with listing
+* Product catalog with dynamic listing
 * Shopping cart with quantity management
 * Checkout page with total calculation
-* Admin login system (role-based access)
-* Product management system (Admin)
+* Admin login system (role-based authentication)
+* Secure password hashing using bcrypt
+* JWT-based authentication
 * MongoDB database integration
-* Responsive UI design
+* Responsive and modern UI design
 
 ---
 
@@ -24,9 +24,11 @@ It includes product browsing, cart system, checkout flow, and admin features.
 * Next.js (App Router)
 * React
 * MongoDB
+* Node.js
+* Express-style API routes
 * JWT Authentication
 * bcrypt.js
-* Tailwind CSS (partially integrated)
+* Tailwind CSS
 
 ---
 
@@ -37,64 +39,42 @@ It includes product browsing, cart system, checkout flow, and admin features.
 * Cart Page
 * Checkout Page
 * Admin Login Page
-* Admin Dashboard (in progress)
+* Admin Dashboard
 
 ---
 
 ## 🔐 Authentication
 
-* Admin login using email & password
-* Password encrypted using bcrypt
-* JWT-based authentication system
-* Role-based access (admin/user)
-
----
-
-## 💳 Payment
-
-* Stripe integration (Test Mode) *(to be completed if not fully added)*
+* Secure login system for admin users
+* Role-based access control
+* JWT token authentication
+* Password encryption using bcrypt
 
 ---
 
 ## 📁 Project Structure
 
-* `/app` → Pages and routes
-* `/components` → UI components
-* `/context` → Cart management
-* `/models` → MongoDB schemas
-* `/lib` → Database connection
+* `/app` – Application pages and routes
+* `/components` – Reusable UI components
+* `/context` – Cart state management
+* `/models` – MongoDB schemas
+* `/lib` – Database connection setup
+* `/data` – Product data
 
 ---
 
-## 📌 Current Status
+## ▶️ Getting Started
 
-* Frontend UI: ✔ Done
-* Cart System: ✔ Done
-* Backend APIs: ⚠ Partial
-* Admin Panel: ⚠ In progress
-* Stripe Payment: ❌ Not completed
-* Full Order System: ❌ Not completed
-
----
-
-## ▶️ How to Run
-
-```bash
+```bash id="run123"
 npm install
 npm run dev
 ```
 
 Open:
 
-```
+```id="run456"
 http://localhost:3000
 ```
-
----
-
-## 🎯 Goal
-
-To build a complete full-stack e-commerce platform with admin control, payment system, and inventory management.
 
 ---
 
