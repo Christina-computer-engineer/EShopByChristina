@@ -65,14 +65,12 @@ E-Shop is a modern full-stack e-commerce platform built using **Next.js, MongoDB
 
 ## ▶️ Getting Started
 
-```bash id="run123"
 npm install
 npm run dev
 ```
 
 Open:
 
-```id="run456"
 http://localhost:3000
 ```
 
